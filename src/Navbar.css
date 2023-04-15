@@ -1,0 +1,20 @@
+.NavBar-Container{
+    background-color: rgb(246, 118, 72);
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+h2{
+    color: aliceblue;
+    margin: 1rem auto;
+}
+.main-image{
+    width: 100%;
+    height: 25rem;
+    z-index: 0;
+    overflow: hidden;
+    object-fit: cover;
+}
+img{
+    
+}
