@@ -1,6 +1,6 @@
 import style from "./Card.module.css";
-import ButtonCard from "..\Components\Card.module.css"
-import Cart from ".Media/carts.png";
+import ButtonCard from "./ButtonCard";
+import Cart from "../Media/carts.png"
 function Card() {
   return (
     <div className={style["Card-Container"]}>

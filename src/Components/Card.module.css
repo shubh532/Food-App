@@ -1,8 +1,11 @@
 .Card-Container{
+    position: relative;
+    left: 13rem;
     padding: 7px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content:space-around;
+    align-items: center;
     width: 15%;
     background-color:rgb(141, 68, 16) ;
     margin: 1rem auto;
@@ -14,8 +17,9 @@
     height: 30px;
 }
 button{
-
-    margin: 0 0 0 10px;
+    border-radius: 8px;
+    padding: 10px;
     color: aliceblue;
-    background-color: rgb(77, 25, 5);
+    font-weight: bold;
+    background-color: rgb(123, 42, 10);
 }

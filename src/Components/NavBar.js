@@ -1,15 +1,15 @@
 import React from "react";
-import "./Navbar.css";
+import Style from "./Navbar.module.css"
 import Card from "./Card";
-import mealimg from "./Meal.jpg"
+import mealimg from "../Media/Meal.jpg"
 function Navbar() {
   return (
     <React.Fragment>
-      <div className="NavBar-Container">
+      <header className={Style["NavBar-Container"]}>
         <h2>React Meal</h2>
         <Card></Card>
-      </div>
-      <div className="main-image">
+      </header>
+      <div className={Style["main-image"]}>
         <img src={mealimg} alt="Cart" />
       </div>
     </React.Fragment>
