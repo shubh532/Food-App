@@ -1,4 +1,5 @@
 import style from "./meallist.module.css"
+import QuantityForm from "../Form/QuatityForm"
 export default function MealList(props){
     const price=`$${props.price.toFixed(2)}`
     return(
@@ -8,6 +9,7 @@ export default function MealList(props){
                 <div className={style.discription}>{props.discription}</div>
                 <div className={style.price}>{price}</div>
             </div>
+            <QuantityForm></QuantityForm>
         </li>
     )
 }
