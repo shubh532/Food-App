@@ -1,13 +1,14 @@
 import style from "./Card.module.css";
-import ButtonCard from "./ButtonCard";
 import Cart from "../Media/carts.png"
 function Card() {
   return (
-    <div className={style["Card-Container"]}>
-      <img className={style.cartImg} src={Cart} alt="cart" width={"100"} height={"100"} />
-      <button>Your Cart</button>
-      <ButtonCard></ButtonCard>
-    </div>
+    <button className={style["Card-Container"]}>
+      <img className={style.cartImg} src={Cart} alt="cart"/>
+      <span className={style.yourCart}>Your Cart</span>
+      <span className={style.buttonCard}>
+        0
+      </span>
+    </button>
   );
 }
 
