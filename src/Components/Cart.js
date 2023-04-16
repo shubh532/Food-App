@@ -1,4 +1,4 @@
-import style from "./Card.module.css";
+import style from "./Cart.module.css";
 import Cart from "../Media/carts.png"
 function Card() {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import Style from "./Navbar.module.css"
-import Card from "./Card";
+import Card from "./Cart";
 import mealimg from "../Media/Meal.jpg"
 function Navbar() {
   return (

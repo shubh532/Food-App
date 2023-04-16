@@ -1,0 +1,17 @@
+.list{
+    margin: 15px;
+    list-style: none;
+    border-bottom: 2px solid rgb(142, 142, 142);
+}
+.name{
+    margin: 0;
+    font-family: cursive;
+    color: rgb(251, 111, 10);
+}
+.discription{
+    color: rgb(54, 54, 54);
+    font-style: italic;
+}
+.price{
+    font-weight: bold;
+}
