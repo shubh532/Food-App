@@ -4,32 +4,3 @@
     width: 8rem;
 }
 
-.Qinput{
-    padding: 0.2rem;
-    text-align: center;
-    font-weight: bold;
-    width: 40px;
-    border-radius: 4px;
-    margin: 0.2rem;
-}
-.inp-container{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-}
-.addbtn{
-    position: relative;
-    left: 1rem;
-    font-weight: bold;
-    margin: 0.3rem;
-    padding: 0.4rem;
-    width: 6rem;
-    border-radius: 15px;
-    background-color: rgb(255, 166, 102);
-}
-.Qlabel{
-    margin: 0.2rem;
-    color: rgb(89, 37, 0);
-    font-weight: bold;
-}

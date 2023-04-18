@@ -1,0 +1,20 @@
+.inp-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.inp-container input{
+    padding: 0.2rem;
+    text-align: center;
+    font-weight: bold;
+    width: 40px;
+    border-radius: 4px;
+    margin: 0.2rem;
+}
+.inp-container label{
+    margin: 0.2rem;
+    color: rgb(89, 37, 0);
+    font-weight: bold;
+}

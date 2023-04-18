@@ -1,0 +1,11 @@
+button{
+    position: relative;
+    left: 1rem;
+    font-weight: bold;
+    margin: 0.3rem;
+    padding: 0.4rem;
+    width: 6rem;
+    border-color: aliceblue;
+    border-radius: 15px;
+    background-color: rgb(255, 166, 102);
+}
