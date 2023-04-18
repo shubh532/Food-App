@@ -14,7 +14,7 @@ function QuantityForm() {
           defaultValue: "1",
         }}
       ></Input>
-      <Button>+ADD</Button>
+      <Button BtnAttributes={{type:"submit"}}>+ADD</Button>
     </form>
   );
 }
