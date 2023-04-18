@@ -34,7 +34,7 @@ function CartItem2(props) {
   ));
 
   return (
-    <Modal2>
+    <Modal2 onClick={props.onClick}>
       <div className={classes.CartContainer}>
         <h3 className={classes.heading}>Cart Items</h3>
         <ol className={classes.list}>{Items}</ol>
@@ -43,7 +43,7 @@ function CartItem2(props) {
           <span className={classes.span2}>2500</span>
         </div>
         <div className={classes.buttons}>
-          <button className={classes.button1}>Close</button>
+          <button className={classes.button1} onClick={props.onClick}>Close</button>
           <button className={classes.button2}>Order</button>
         </div>
       </div>
