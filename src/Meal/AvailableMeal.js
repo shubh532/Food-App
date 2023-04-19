@@ -10,21 +10,21 @@ const Meal = [
   },
   {
     id: Math.random(),
-    name: "Gulab Jamun",
+    name: "Rass Gulla",
     discription: "Sweet Dish",
-    price: 120,
+    price: 250,
   },
   {
     id: Math.random(),
-    name: "Gulab Jamun",
+    name: "Jalebi",
     discription: "Sweet Dish",
-    price: 120,
+    price: 400,
   },
   {
     id: Math.random(),
-    name: "Gulab Jamun",
+    name: "Mithai",
     discription: "Sweet Dish",
-    price: 120,
+    price: 500,
   },
 ];
 
@@ -32,6 +32,7 @@ const AvilableMeal = () => {
   const MealItems = Meal.map((meal) => (
     <MealList
       key={meal.id}
+      id={meal.id}
       name={meal.name}
       discription={meal.discription}
       price={meal.price}
