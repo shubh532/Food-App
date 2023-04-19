@@ -6,7 +6,7 @@ function Backdrop(props) {
 }
 
 function ModalOverlay(props) {
-  return <div onClick={props.onClick}>{props.children} </div>;
+  return <div>{props.children} </div>;
 }
 
 const parentElement = document.getElementById("OverLay");
@@ -16,7 +16,7 @@ const Modal2 = (props) => {
     <Fragment>
       {ReactDOM.createPortal(<Backdrop onClick={props.onClick}></Backdrop>, parentElement)}
       {ReactDOM.createPortal(
-        <ModalOverlay onClick={props.onClick}>{props.children}</ModalOverlay>,
+        <ModalOverlay>{props.children}</ModalOverlay>,
         parentElement
       )}
     </Fragment>

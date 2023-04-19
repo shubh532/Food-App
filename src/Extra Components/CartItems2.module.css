@@ -29,10 +29,10 @@
 .TotalAmount{
     display:flex;
     justify-content: space-between;
-    padding: 0.5rem;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
     /* border: 2px solid black; */
 }
-.TotalAmount .span1,li .span1{
+.TotalAmount .span1,h3{
     color: rgb(233, 96, 46);
     font-weight: 900;
 }
@@ -47,11 +47,11 @@
     margin: 0.3rem;
 }
 .buttons .button1,.buttons .button2{
-    padding: 10px;
+    padding: 8px;
     margin: 0.5rem;
     font-size: 1rem;
     font-weight: bold;
-    border-radius: 12px;
+    border-radius: 15px;
     border: 2px solid rgb(220, 95, 6) ;
 }
 

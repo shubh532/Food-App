@@ -1,0 +1,40 @@
+.ItemContainer{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+h3{
+    margin: 0px;
+}
+.ItemContainer div{
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+    align-items: center;
+    padding: 5px;
+}
+.NoOfItems{
+    font-weight: bold;
+    border: 2px solid rgb(200, 200, 200);
+    padding:0 5px 0 5px;
+    border-radius: 5px;
+}
+.buttons{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0.3rem;
+}
+.buttons .button1,.buttons .button2{
+    padding: 8px;
+    margin: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 2px solid rgb(220, 95, 6) ;
+}
+
+
+.button1:hover,.button2:hover{
+    background-color: rgb(220, 95, 6);
+    color: aliceblue;
+}
